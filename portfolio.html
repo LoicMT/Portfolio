@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0077b6;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 900px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0077b6;
+            border-bottom: 2px solid #0077b6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .experience-item {
+            margin-bottom: 2rem;
+        }
+        .experience-item strong {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .experience-item p {
+            margin: 0.5rem 0;
+        }
+        .experience-item span {
+            color: #0077b6;
+            font-weight: bold;
+        }
+        .contact {
+            background: linear-gradient(to bottom, #0077b6, #00b4d8);
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .contact h2 {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+        }
+        .contact p {
+            margin: 0.5rem 0;
+        }
+        .contact .highlight {
+            margin-top: 1.5rem;
+            padding: 0.5rem;
+            border: 2px solid #fff;
+            display: inline-block;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #0077b6;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <nav>
+            <a href="#intro">Accueil</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Parcours</a>
+            <a href="#experience">Expériences Professionnelles</a>
+            <a href="#contact">Informations Personnelles</a>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Bienvenue !</h2>
+        <p>Je suis Loïc CHOLOT, automaticien chez Actemium. Découvrez-en plus sur moi.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>FAIRE PORTFOLIO</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Parcours</h2>
+        <ul>
+            <li>
+                <strong>BUT GEII | Génie Electrique et Informatique Industriel :</strong>
+                <br>IUT Gratte-Ciel Lyon 1 (Septembre 2021 - Présent)
+                <br><span class="highlight">Option AII</span> (Automatisme et Informatique Industriel)
+            </li>
+            <li>
+                <strong>L1 Sciences et Technologies :</strong>
+                <br>Université Claude Bernard Lyon 1 (2020 - 2021)
+                <br><span class="highlight">Option Mathématique et Informatique</span>
+            </li>
+            <li>
+                <strong>Bac Scientifique | Science de la vie et de la terre :</strong>
+                <br>Lycée Pierre Brossolette (2017 - 2020)
+                <br><span class="highlight">Option ISN</span> (Informatique et Science du Numérique)
+            </li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Expériences Professionnelles</h2>
+        <div class="experience-item">
+            <strong>Alternance 1 an</strong>
+            <p><span>ACTEMIUM Dardilly</span> (Sept. 2024 - Aout. 2025)</p>
+            <p>Alternant Automaticien : A VOIR </p>
+        </div>
+        <div class="experience-item">
+            <strong>CDD 1 mois</strong>
+            <p><span>ACTEMIUM Dardilly</span> (Juillet 2024)</p>
+            <p>Automaticien Débutant : Revamping d'un système de Contrôle-Commande d'une zone MLC | Migration d'une supervision sur le logiciel STEP 7</p>
+        </div>
+        <div class="experience-item">
+            <strong>Stage en Entreprise 10 semaines</strong>
+            <p><span>ACTEMIUM Dardilly</span> (Avril-Juin 2024)</p>
+            <p>Automaticien Stagiaire : Revamping d'un système de Contrôle-Commande d'une zone MLC</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Informations Personnelles</h2>
+        <p><strong>Âge :</strong> 22 ans</p>
+        <p><strong>Téléphone :</strong> 06 17 85 33 87</p>
+        <p><strong>Adresse :</strong> 1 rue Clos Poncet | 69100 Villeurbanne</p>
+        <p><strong>E-mail :</strong> loic.cholot@vinci-energies.net</p>
+        <div class="highlight">Rigueur - Adaptabilité - Organisé</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
