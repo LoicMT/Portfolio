@@ -1,0 +1,25 @@
+/* Styles globaux */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* … vos autres règles de layout, nav, sections … */
+
+/* Styles pour les illustrations */
+.illustration {
+  margin: 1.5em 0;
+  text-align: center;
+}
+.illustration img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+.illustration figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 0.5em;
+}

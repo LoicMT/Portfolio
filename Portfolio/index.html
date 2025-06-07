@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0077b6;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 900px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0077b6;
+            border-bottom: 2px solid #0077b6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .experience-item {
+            margin-bottom: 2rem;
+        }
+        .experience-item strong {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .experience-item p {
+            margin: 0.5rem 0;
+        }
+        .experience-item span {
+            color: #0077b6;
+            font-weight: bold;
+        }
+        .contact {
+            background: linear-gradient(to bottom, #0077b6, #00b4d8);
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .contact h2 {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+        }
+        .contact p {
+            margin: 0.5rem 0;
+        }
+        .contact .highlight {
+            margin-top: 1.5rem;
+            padding: 0.5rem;
+            border: 2px solid #fff;
+            display: inline-block;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #0077b6;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <nav>
+            <a href="#intro">Accueil</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Parcours</a>
+            <a href="#experience">Expériences Professionnelles</a>
+            <a href="#contact">Informations Personnelles</a>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Bienvenue !</h2>
+        <p>Je suis Loïc CHOLOT, Analyste Programmeur apprenti chez Actemium. Découvrez-en plus sur moi.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences du BUT 3</h2>
+        <ul>
+            <li>Concevoir la partie GEII d'un système</li>
+            <li>Vérifier la partie GEII d'un système</li>  
+            <li>Assurer le maintien en conditions opérationnelles d'un système</li>  
+            <li>Intégrer un système de commande et de contrôle dans un procédé industriel</li>     
+        </ul>
+
+        <!-- Début de l'ajout pour la compétence C1 -->
+        <h3>Compétence C1 : « Concevoir la partie GEII d’un système industriel »</h3>
+        <p><strong>AC :</strong> Rédiger un dossier de conception</p>
+        <h4>Contexte</h4>
+        <p>Dans le cadre de la SAE6 de la 3ᵉ année de BUT GEII, j’ai réalisé en équipe une application web destinée à gérer efficacement l’organisation des Devoirs Surveillés (DS) de notre département. Ce projet avait pour but de centraliser les données des épreuves, d’automatiser l’affectation des étudiants dans les salles, et de fournir des outils adaptés à chaque rôle utilisateur (administrateur, secrétaire, enseignant).</p>
+        <p>Afin de structurer le travail et d’assurer une vision globale du projet, j’ai rédigé un dossier de conception détaillé. Celui-ci contient toutes les étapes du développement, depuis l’analyse du besoin jusqu’à la mise en production. Il commence par un cahier des charges complet définissant les objectifs, les rôles, les fonctionnalités attendues et les contraintes. Ce document a constitué une référence essentielle pour organiser le développement, répartir les tâches et vérifier que les fonctionnalités répondaient aux attentes.</p>
+        <p>Dans ce dossier, j’ai également intégré des maquettes des interfaces, conçues dès les premières étapes de la conception. Ces maquettes ont permis de valider l’ergonomie prévue pour chaque rôle utilisateur. Elles définissaient la structure des pages, la navigation, les boutons principaux, et les contraintes d’affichage.</p>
+        <p>Une attention particulière a été portée à la documentation de la procédure d’installation, qui devait permettre à toute personne extérieure au projet de le déployer facilement. Cette section indique les outils nécessaires (Python, pip, Git), les configurations à adapter, ainsi que les fichiers à modifier pour relier l’application à la base de données de l’IUT.</p>
+        <!-- Fin de l'ajout pour la compétence C1 -->
+    </section>
+
+
+    <section id="projects">
+        <h2>Parcours</h2>
+        <ul>
+            <li>
+                <strong>3ème année BUT GEII | Génie Electrique et Informatique Industriel :</strong>
+                <br>IUT Gratte-Ciel Lyon 1 (Septembre 2021 - Présent)
+                <br><span class="highlight">Option AII</span> (Automatisme et Informatique Industriel)
+            </li>
+            <li>
+                <strong>L1 Sciences et Technologies :</strong>
+                <br>Université Claude Bernard Lyon 1 (2020 - 2021)
+                <br><span class="highlight">Option Mathématique et Informatique</span>
+            </li>
+            <li>
+                <strong>Bac Scientifique | Science de la vie et de la terre :</strong>
+                <br>Lycée Pierre Brossolette (2017 - 2020)
+                <br><span class="highlight">Option ISN</span> (Informatique et Science du Numérique)
+            </li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Expériences Professionnelles</h2>
+        <div class="experience-item">
+            <strong>Alternance 1 an</strong>
+            <p><span>ACTEMIUM Dardilly</span> (Sept. 2024 - Aout. 2025)</p>
+            <p>Analyste Programmeur apprenti : Etude et réalisation de programmation d'automate et supervision </p>
+        </div>
+        <div class="experience-item">
+            <strong>CDD 1 mois</strong>
+            <p><span>ACTEMIUM Dardilly</span> (Juillet 2024)</p>
+            <p>Analyste Programmeur Débutant : Revamping d'un système de Contrôle-Commande d'une zone MLC | Migration d'une supervision sur le logiciel STEP 7</p>
+        </div>
+        <div class="experience-item">
+            <strong>Stage en Entreprise 10 semaines</strong>
+            <p><span>ACTEMIUM Dardilly</span> (Avril-Juin 2024)</p>
+            <p>Analyste Programmeur Stagiaire : Revamping d'un système de Contrôle-Commande d'une zone MLC</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Informations Personnelles</h2>
+        <p><strong>Âge :</strong> 22 ans</p>
+        <p><strong>Téléphone :</strong> 06 17 85 33 87</p>
+        <p><strong>Adresse :</strong> 1 rue Clos Poncet | 69100 Villeurbanne</p>
+        <p><strong>E-mail :</strong> loic.cholot@vinci-energies.net</p>
+        <div class="highlight">Rigueur - Adaptabilité - Organisé</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
